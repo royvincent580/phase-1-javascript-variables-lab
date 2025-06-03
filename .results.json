@@ -1,0 +1,113 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-06-03T14:56:09.625Z",
+    "end": "2025-06-03T14:56:10.201Z",
+    "duration": 576
+  },
+  "tests": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\nlet companyCeo = \\'Susan Smith\\';\\n// The above variables are defined as per the requirements.\\n// companyName is a constant, while mostProfitableNeighborhood and companyCeo are defined using let.' to match /const companyName/",
+        "showDiff": false,
+        "actual": "// Code your solution in this file!\nlet companyName = 'Scuber';\nlet mostProfitableNeighborhood = 'Chelsea';\nlet companyCeo = 'Susan Smith';\n// The above variables are defined as per the requirements.\n// companyName is a constant, while mostProfitableNeighborhood and companyCeo are defined using let.",
+        "stack": "AssertionError: Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\nlet companyCeo = \\'Susan Smith\\';\\n// The above variables are defined as per the requirements.\\n// companyName is a constant, while mostProfitableNeighborhood and companyCeo are defined using let.' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:15:21)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\nlet companyCeo = \\'Susan Smith\\';\\n// The above variables are defined as per the requirements.\\n// companyName is a constant, while mostProfitableNeighborhood and companyCeo are defined using let.' to match /const companyName/",
+        "showDiff": false,
+        "actual": "// Code your solution in this file!\nlet companyName = 'Scuber';\nlet mostProfitableNeighborhood = 'Chelsea';\nlet companyCeo = 'Susan Smith';\n// The above variables are defined as per the requirements.\n// companyName is a constant, while mostProfitableNeighborhood and companyCeo are defined using let.",
+        "stack": "AssertionError: Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\';\\nlet mostProfitableNeighborhood = \\'Chelsea\\';\\nlet companyCeo = \\'Susan Smith\\';\\n// The above variables are defined as per the requirements.\\n// companyName is a constant, while mostProfitableNeighborhood and companyCeo are defined using let.' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:15:21)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
